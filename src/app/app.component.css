@@ -1,7 +1,29 @@
 p {
   font-family: Lato;
 }
-
+.validation-text{
+  color:red;
+  text-align: right;
+}
+input, p{
+  margin:0;
+  padding:0;
+}
+input{
+  padding: 8px;
+  border-radius:3px;
+}
+.containeer{
+ padding:30px;
+}
+.left{display: inline-table}
+.right{display:inline-table}
+button{
+  margin: 10px 10px 10px 60px;
+  background:green;
+  font-size:20px;
+  border-radius:3px;
+}
 /*
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that

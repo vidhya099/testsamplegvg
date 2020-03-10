@@ -5,7 +5,14 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: [ './app.component.css' ]
 })
-export class AppComponent  {}
+export class AppComponent  {
+  items = [""];
+  count = 0;
+  addNewInput(){
+    this.items.push("");
+    this.count++;
+  }
+}
 
 
 /*
